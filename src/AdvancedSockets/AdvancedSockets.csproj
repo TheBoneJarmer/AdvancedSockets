@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>AdvancedSockets</PackageId>
+    <Version>1.10.0</Version>
+    <Authors>Ruben Labruyere</Authors>
+    <Company>Ruben Labruyere</Company>
+    <Description>AdvancedSockets is a multithreaded websocket and http client/server library for dotnet applications. With this library you can easily setup websocket clients and servers as well as http servers.</Description>
+    <Copyright>Copyright 2020 Ruben Labruyere</Copyright>
+    <RepositoryUrl>https://github.com/TheBoneJarmer/AdvancedSockets</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>websockets,websocket,websocket client,websocket server,websocket-client,websocket-server,http,http server,http-server,api client,api-client</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
